@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="66" started-at="2020-08-01T10:28:11 IST" finished-at="2020-08-01T10:28:11 IST">
+    <groups>
+      <group name="Functional">
+        <method signature="GroupingDemo.m4()[pri:0, instance:GroupingDemo@3224f60b]" name="m4" class="GroupingDemo"/>
+      </group> <!-- Functional -->
+      <group name="Sanity">
+        <method signature="GroupingDemo.m3()[pri:0, instance:GroupingDemo@3224f60b]" name="m3" class="GroupingDemo"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="GroupingDemo.m2()[pri:0, instance:GroupingDemo@3224f60b]" name="m2" class="GroupingDemo"/>
+      </group> <!-- Regression -->
+      <group name="M6">
+        <method signature="GroupingDemo.m6()[pri:0, instance:GroupingDemo@3224f60b]" name="m6" class="GroupingDemo"/>
+      </group> <!-- M6 -->
+      <group name="Smoke">
+        <method signature="GroupingDemo.m1()[pri:0, instance:GroupingDemo@3224f60b]" name="m1" class="GroupingDemo"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="66" started-at="2020-08-01T10:28:11 IST" finished-at="2020-08-01T10:28:11 IST">
+      <class name="GroupingDemo">
+        <test-method status="PASS" signature="m1()[pri:0, instance:GroupingDemo@3224f60b]" name="m1" duration-ms="10" started-at="2020-08-01T10:28:11 IST" finished-at="2020-08-01T10:28:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="m2()[pri:0, instance:GroupingDemo@3224f60b]" name="m2" duration-ms="1" started-at="2020-08-01T10:28:11 IST" finished-at="2020-08-01T10:28:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method status="PASS" signature="m3()[pri:0, instance:GroupingDemo@3224f60b]" name="m3" duration-ms="1" started-at="2020-08-01T10:28:11 IST" finished-at="2020-08-01T10:28:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method status="PASS" signature="m4()[pri:0, instance:GroupingDemo@3224f60b]" name="m4" duration-ms="2" started-at="2020-08-01T10:28:11 IST" finished-at="2020-08-01T10:28:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method status="PASS" signature="m6()[pri:0, instance:GroupingDemo@3224f60b]" name="m6" duration-ms="2" started-at="2020-08-01T10:28:11 IST" finished-at="2020-08-01T10:28:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m6 -->
+      </class> <!-- GroupingDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

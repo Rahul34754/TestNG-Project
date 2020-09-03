@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<groups>
+			<define name="All_group">
+				<include name="Smoke"></include>
+				<include name="Regression"></include>
+				<include name="Sanity"></include>
+				<include name="Functional"></include>
+				<include name="M5"></include>
+				<include name="M6"></include>
+
+			</define>
+			<run>
+				<include name="All_group"></include>
+				<exclude name="M5"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="GroupingDemo" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
